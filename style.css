@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  border-bottom: 2px solid wheat;
+}
+
+.container{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw; /* Use viewport units for responsiveness */
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px  black;
+  text-align: center;
+    
+}
+.profile{
+    text-align: center;
+    margin-top: 90px;
+}
+.summary{
+    font-size: 30px;
+    color: bisque;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.skills{
+    font-size: 40px;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.skillcont{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 20px;
+     color: blanchedalmond;
+    
+    
+}
+
+
+
+
